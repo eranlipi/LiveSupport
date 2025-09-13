@@ -1,0 +1,15 @@
+# dotnet
+bin/
+obj/
+*.user
+*.suo
+
+# node
+node_modules/
+dist/
+.vite/
+.env.local
+.env.*.local
+
+# general
+.DS_Store
