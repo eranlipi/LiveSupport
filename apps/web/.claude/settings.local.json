@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(dir node_modules.bin)",
+      "Bash(findstr:*)",
+      "Read(//c/dev/live-support-ticket-dashboard/LiveSupport/apps/**)",
+      "Bash(cat:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm start)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
