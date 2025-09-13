@@ -1,12 +1,11 @@
-version: "3.9"
 services:
   api:
-    build: ./apps/api
+    build: ../api
     ports: ["5203:8080"]
-    env_file: ./apps/api/.env
+    env_file: ../api/.env
     depends_on: [db]
   web:
-    build: ./apps/web
+    build: ../web
     ports: ["5173:5173"]
     environment:
       - VITE_API_BASE=http://localhost:5203/api/v1
