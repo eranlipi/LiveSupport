@@ -9,6 +9,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.9" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.RateLimiting" Version="9.0.9" />
+    <PackageReference Include="HtmlSanitizer" Version="8.0.865" />
   </ItemGroup>
 
   <PropertyGroup>
