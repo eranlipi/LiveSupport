@@ -26,15 +26,3 @@ docker-compose -f apps/infra/docker-compose.yml up -d
 # Access the application
 open http://localhost:5173  # Frontend
 open http://localhost:5203/swagger  # API Documentation
-
-
-**Get up and running in 30 seconds:**
-```bash
-# Clone and start the full stack
-git clone <repository-url>
-cd live-support-dashboard
-docker-compose -f apps/infra/docker-compose.yml up -d
-
-# Access the application
-open http://localhost:5173  # Frontend
-open http://localhost:5203/swagger  # API Documentation
