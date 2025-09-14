@@ -18,4 +18,5 @@ docker-compose -f apps/infra/docker-compose.yml up -d
 
 # Access the application
 open http://localhost:5173  # Frontend
+
 open http://localhost:5203/swagger  # API Documentation
